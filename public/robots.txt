@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Allow important pages
+Allow: /projects
+Allow: /courses
+Allow: /articles
+Allow: /about
+Allow: /contact
+
+# Crawl delay for better server performance
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://isav-academy.netlify.app/sitemap.xml
+
+# Host directive
+Host: https://isav-academy.netlify.app
